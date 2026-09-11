@@ -1,0 +1,5 @@
+INPUT@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl_enhanced/spyglass_reports@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/html_reports/data_files/@@over_top@@lint-lint_rtl_enhanced@@
+COPY@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl_enhanced/spyglass_reports/moresimple.rpt@@data_files/over_top_lint-lint_rtl_enhanced_moresimple.rpt@@
+COPY@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl_enhanced/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/over_top_lint-lint_rtl_enhanced_no_msg_reporting_rules.rpt@@
+PROCESS@@starc2002@@timing@@morelint@@latch@@lint@@simulation@@erc@@starc2005@@starc@@openmore@@SpyGlass
+COPY@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl_enhanced/spyglass.log@@data_files/over_top_lint-lint_rtl_enhanced_spyglass.log@@

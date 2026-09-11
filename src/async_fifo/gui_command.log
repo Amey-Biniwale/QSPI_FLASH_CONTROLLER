@@ -1,0 +1,51 @@
+new_project spyglass-1 -force
+# Started at 10:26:24, Completed at 10:26:25 (Elapsed time = 00:00:01.360)
+
+read_file -type verilog {bi_to_gr.v ff2_sync.v fifo.v fifo_top.v}
+# Started at 10:26:37, Completed at 10:26:37 (Elapsed time = 00:00:00.009)
+
+read_file -type sgdc lab9.sgdc
+# Started at 10:26:37, Completed at 10:26:37 (Elapsed time = 00:00:00.009)
+
+read_file -type verilog {over_top.v read_handler.v write_handler.v}
+# Started at 10:26:37, Completed at 10:26:37 (Elapsed time = 00:00:00.000)
+
+current_goal Design_Read -alltop
+# Started at 10:26:39, Completed at 10:26:39 (Elapsed time = 00:00:00.719)
+
+link_design -force
+# Started at 10:26:40, Completed at 10:26:44 (Elapsed time = 00:00:03.470)
+
+current_goal lint/lint_rtl -alltop
+# Started at 10:26:58, Completed at 10:27:01 (Elapsed time = 00:00:03.700)
+
+run_goal
+# Started at 10:27:02, Completed at 10:27:16 (Elapsed time = 00:00:15.010)
+
+current_goal lint/lint_rtl_enhanced -alltop
+# Started at 10:27:16, Completed at 10:27:21 (Elapsed time = 00:00:04.379)
+
+run_goal
+# Started at 10:27:21, Completed at 10:27:27 (Elapsed time = 00:00:07.409)
+
+current_goal cdc/cdc_setup_check -alltop
+# Started at 10:27:27, Completed at 10:27:31 (Elapsed time = 00:00:02.949)
+
+run_goal
+# Started at 10:27:31, Completed at 10:27:36 (Elapsed time = 00:00:05.799)
+
+current_goal cdc/cdc_verify -alltop
+# Started at 10:27:36, Completed at 10:27:39 (Elapsed time = 00:00:03.090)
+
+run_goal
+# Started at 10:27:39, Completed at 10:28:00 (Elapsed time = 00:00:21.080)
+
+current_goal lint/lint_rtl -alltop
+# Started at 10:28:00, Completed at 10:28:04 (Elapsed time = 00:00:04.409)
+
+current_goal lint/lint_rtl_enhanced -alltop
+# Started at 10:28:10, Completed at 10:28:16 (Elapsed time = 00:00:06.619)
+
+current_goal cdc/cdc_verify -alltop
+# Started at 10:28:20, Completed at 10:28:26 (Elapsed time = 00:00:03.619)
+

@@ -1,0 +1,32 @@
+$date
+	Tue Aug 18 10:27:44 2026
+
+$end
+$version
+	BMC-0.1
+$end
+$timescale
+	1ps
+$end
+
+$var integer 16 verification_cycle verification_cycle $end
+$scope module over_top $end
+
+$var wire 1 & clk1 $end
+$var wire 1 ' clk2 $end
+$var wire 1 ( w_en $end
+$var wire 1 ) r_en $end
+$var wire 5 * d1 [4:0] $end
+$var wire 1 / rst2 $end
+$var wire 1 0 rst1 $end
+$upscope $end
+
+$enddefinitions $end
+
+#10000
+b0000000000000000 verification_cycle
+
+1/
+10
+
+#20000

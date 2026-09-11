@@ -1,0 +1,2 @@
+waive -rule {  {STARC05-2.5.1.2}  }  -comment {Created by ameybiniwale on 11-Sep-2026 22:18:47} 
+waive -rule {  {W415a}  }  -comment {Created by ameybiniwale on 11-Sep-2026 22:20:48} 

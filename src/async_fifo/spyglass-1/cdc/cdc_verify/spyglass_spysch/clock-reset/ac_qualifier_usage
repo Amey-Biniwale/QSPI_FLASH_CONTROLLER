@@ -1,0 +1,16 @@
+4@@1@@over_top.t1.ff1.sync_1[6:0]@@"over_top.clk1"@@over_top.t1.r1.g_rptr[6:0]@@"over_top.clk2"@@Conventional multi-flop for metastability technique
+4@@3@@over_top.t1.ff2.sync_1[6:0]@@"over_top.clk2"@@over_top.t1.h1.g_wptr[6:0]@@"over_top.clk1"@@Conventional multi-flop for metastability technique
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@3@@1
+3@@3@@0
+3@@3@@0
+3@@3@@0
+3@@3@@0
+3@@3@@0
+3@@3@@0

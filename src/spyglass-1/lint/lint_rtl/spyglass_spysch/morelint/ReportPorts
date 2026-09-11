@@ -1,0 +1,40 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@PCLK@@INPUT@@0@@0@@APB INTERFACE@@QSPI_top@@No
+VALUE@@PRESETn@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@PWRITE@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@PENABLE@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@PSEL@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@PSTRB@@INPUT@@3@@0@@-@@QSPI_top@@No
+VALUE@@PADDR@@INPUT@@31@@0@@-@@QSPI_top@@No
+VALUE@@PWDATA@@INPUT@@31@@0@@-@@QSPI_top@@No
+VALUE@@PSLVERR@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@PREADY@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@PRDATA@@OUTPUT@@31@@0@@-@@QSPI_top@@No
+VALUE@@APB_ERROR@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@HCLK@@INPUT@@0@@0@@AHB INTERFACE@@QSPI_top@@No
+VALUE@@HRESETn@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@HSEL@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@HADDR@@INPUT@@31@@0@@-@@QSPI_top@@No
+VALUE@@HWRITE@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@HTRANS@@INPUT@@1@@0@@-@@QSPI_top@@No
+VALUE@@HRDATA@@OUTPUT@@31@@0@@-@@QSPI_top@@No
+VALUE@@HREADYOUT@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@HRESP@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@EMPTY@@OUTPUT@@3@@0@@-@@QSPI_top@@No
+VALUE@@FULL@@OUTPUT@@3@@0@@-@@QSPI_top@@No
+VALUE@@SCLK@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@SRESETn@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@FLASH_WIP@@INPUT@@0@@0@@QSPI OUTPUTS@@QSPI_top@@No
+VALUE@@io0_i@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io1_i@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io2_i@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io3_i@@INPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@CSn@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io0_o@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io1_o@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io2_o@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io3_o@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io0_oe@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io1_oe@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io2_oe@@OUTPUT@@0@@0@@-@@QSPI_top@@No
+VALUE@@io3_oe@@OUTPUT@@0@@0@@-@@QSPI_top@@No

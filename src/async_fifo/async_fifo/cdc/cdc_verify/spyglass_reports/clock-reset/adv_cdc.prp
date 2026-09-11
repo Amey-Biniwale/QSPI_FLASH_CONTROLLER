@@ -1,0 +1,20 @@
+################################################################################
+#
+# Purpose: 
+#   This file specifies the assertion details along with their run status.
+#   Functional analysis is done only for those assertions that are enabled
+#   in the property file.
+#
+# Format: 
+#   
+#   RuleName: <rule-name>
+#   <selection> <type> <status> <file-name> <line-num> <hier> [ <info> ]
+#   .....
+#   
+#   
+################################################################################
+RuleName: Ac_cdc01a 
+off  Assertion   PROVED              ff2_sync.v  15  "over_top.t1.ff2"  [SFlop:over_top.t1.g_wptr[4] SClk:over_top.clk1 DFlop:over_top.t1.ff2.sync_1[4] DClk:over_top.clk2]
+
+RuleName: Ac_datahold01a 
+off  Assertion   FAILED              fifo.v  29  "over_top.t1.f1"  [Des: "over_top.t1.f1.\data_out_reg[0] .Q", Src: "over_top.t1.f1.\mem_reg[15][0] .Q"]

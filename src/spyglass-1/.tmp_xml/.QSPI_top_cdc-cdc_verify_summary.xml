@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<goal_summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="file://Dashboard/goal_xml.xsd">
+<!-- This file schema is internal to Atrenta DashBoard and subject to change in future without notice --> 
+<goal name="cdc/cdc_verify"/>
+<top name="QSPI_top"/>
+<dir name="/fetools/work_area/frontend/b11_rtl/amey/QSPI_FLASH_CONTROLLER/src/spyglass-1/consolidated_reports/cdc_cdc_verify/"/>
+<log name="/fetools/work_area/frontend/b11_rtl/amey/QSPI_FLASH_CONTROLLER/src/spyglass-1/cdc/cdc_verify/spyglass.log" link="data_files/QSPI_top_cdc-cdc_verify_spyglass.log"/>
+  <std_reports> 
+<report name="Waiver" link="data_files/QSPI_top_cdc-cdc_verify_waiver.rpt" tooltip="waiver.rpt" />
+<report name="moresimple" link="data_files/QSPI_top_cdc-cdc_verify_moresimple.rpt" tooltip="moresimple.rpt" />
+<report name="no_msg_reporting_rules" link="data_files/QSPI_top_cdc-cdc_verify_no_msg_reporting_rules.rpt" tooltip="no_msg_reporting_rules.rpt" />
+  </std_reports> 
+<tech_reports> 
+   <technology name="CDC( Advance CDC - CDC Verification )"> 
+<report name="CDC Summary Report" link="data_files/QSPI_top_cdc-cdc_verify_CDC-report.rpt.html" tooltip="CDC-report.rpt" />
+<report name="Functional Verification Summary" link="data_files/QSPI_top_cdc-cdc_verify_adv_cdc.rpt.html" tooltip="adv_cdc.rpt" />
+   </technology> 
+</tech_reports> 
+<statistics fatal="0" error="0" warning="0" info="103" waived_error="9" waived_warning="26" waived_info="9" /> 
+<tech_summary> 
+   <technology name="CDC( Advance CDC )"> 
+<item name="Unsynchronized crossings= 0" link="data_files/QSPI_top_cdc-cdc_verify_CDC-report.rpt" /> 
+<item name="Convergences= 0" link="data_files/QSPI_top_cdc-cdc_verify_CDC-report.rpt" /> 
+   </technology> 
+</tech_summary> 
+</goal_summary> 

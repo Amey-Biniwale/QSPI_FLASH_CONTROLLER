@@ -1,0 +1,72 @@
+4 "W164a" 1
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+5 "W164a" 1
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+6 "W164a" 1
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+7 "W164a" 1
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+8 "W164a" 1
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+-1 "CMD_overloadrule01" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[28]
+"RULEGROUP"
+["morelint"]
+-1 "STARC05-2.5.1.2" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[58]
+"RULEGROUP"
+["starc2005/s05_Construct/s05_Construct1","starc2005/RTL_Description_Technique_05"]
+-1 "TristatePort-ML" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[68]
+"RULEGROUP"
+["morelint"]
+-1 "W164a" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[82]
+"RULEGROUP"
+["lint/width_rules_lint","lint/Lint_Elab_Rules","lint/Assign/W164"]
+-1 "W438" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[126]
+"RULEGROUP"
+["lint/Lint_Tristate"]
+-1 "W444" 3
+"TEMPLATE"
+["lint/lint_rtl_enhanced"]
+"RULE_ORDER"
+[132]
+"RULEGROUP"
+["lint/Expression"]

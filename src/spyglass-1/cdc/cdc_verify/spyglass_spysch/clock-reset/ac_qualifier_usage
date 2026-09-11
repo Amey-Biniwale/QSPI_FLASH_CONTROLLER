@@ -1,0 +1,48 @@
+4@@4@@QSPI_top.ice_arb.ff1.sync_1[2:0]@@"QSPI_top.PCLK"@@QSPI_top.ice_arb.r1.g_rptr[2:0]@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@5@@QSPI_top.arb_ice.ff2.sync_1[2:0]@@"QSPI_top.PCLK"@@QSPI_top.arb_ice.h1.g_wptr[2:0]@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@8@@QSPI_top.xip_arb.ff1.sync_1[2:0]@@"QSPI_top.HCLK"@@QSPI_top.xip_arb.r1.g_rptr[2:0]@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@9@@QSPI_top.arb_xip.ff2.sync_1[2:0]@@"QSPI_top.HCLK"@@QSPI_top.arb_xip.h1.g_wptr[2:0]@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@10@@QSPI_top.ff5.syncro1@@"QSPI_top.HCLK"@@QSPI_top.u_qspi_core.arb.PS[2:0]@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@10@@QSPI_top.ff5.syncro1@@"QSPI_top.HCLK"@@QSPI_top.u_qspi_core.cont.DONE@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@11@@QSPI_top.ff2.syncro1@@"QSPI_top.HCLK"@@QSPI_top.u_qspi_core.arb.PS[2:0]@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@11@@QSPI_top.ff2.syncro1@@"QSPI_top.HCLK"@@QSPI_top.u_qspi_core.cont.BUSY@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@12@@QSPI_top.ff3.syncro1@@"QSPI_top.HCLK"@@QSPI_top.u_qspi_core.arb.PS[2:0]@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@12@@QSPI_top.ff3.syncro1@@"QSPI_top.HCLK"@@QSPI_top.u_qspi_core.cont.DONE@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@13@@QSPI_top.ff4.syncro1@@"QSPI_top.HCLK"@@QSPI_top.u_qspi_core.arb.PS[2:0]@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@13@@QSPI_top.ff4.syncro1@@"QSPI_top.HCLK"@@QSPI_top.u_qspi_core.cont.BUSY@@"QSPI_top.SCLK"@@Conventional multi-flop for metastability technique
+4@@27@@QSPI_top.ice_arb.ff2.sync_1[2:0]@@"QSPI_top.SCLK"@@QSPI_top.ice_arb.h1.g_wptr[2:0]@@"QSPI_top.PCLK"@@Conventional multi-flop for metastability technique
+4@@28@@QSPI_top.arb_ice.ff1.sync_1[2:0]@@"QSPI_top.SCLK"@@QSPI_top.arb_ice.r1.g_rptr[2:0]@@"QSPI_top.PCLK"@@Conventional multi-flop for metastability technique
+4@@29@@QSPI_top.xip_arb.ff2.sync_1[2:0]@@"QSPI_top.SCLK"@@QSPI_top.xip_arb.h1.g_wptr[2:0]@@"QSPI_top.HCLK"@@Conventional multi-flop for metastability technique
+4@@30@@QSPI_top.arb_xip.ff1.sync_1[2:0]@@"QSPI_top.SCLK"@@QSPI_top.arb_xip.r1.g_rptr[2:0]@@"QSPI_top.HCLK"@@Conventional multi-flop for metastability technique
+4@@31@@QSPI_top.ff6.syncro1@@"QSPI_top.SCLK"@@QSPI_top.u_ahb_path.xip.QSPI_START@@"QSPI_top.HCLK"@@Conventional multi-flop for metastability technique
+4@@32@@QSPI_top.ff1.syncro1@@"QSPI_top.SCLK"@@QSPI_top.u_apb_path.ice.PS@@"QSPI_top.PCLK"@@Conventional multi-flop for metastability technique
+3@@4@@0
+3@@4@@0
+3@@4@@0
+3@@5@@1
+3@@5@@0
+3@@5@@0
+3@@8@@0
+3@@8@@0
+3@@8@@0
+3@@9@@1
+3@@9@@0
+3@@9@@0
+3@@10@@0
+3@@11@@0
+3@@12@@0
+3@@13@@0
+3@@27@@1
+3@@27@@0
+3@@27@@0
+3@@28@@0
+3@@28@@0
+3@@28@@0
+3@@29@@1
+3@@29@@0
+3@@29@@0
+3@@30@@0
+3@@30@@0
+3@@30@@0
+3@@31@@0
+3@@32@@0

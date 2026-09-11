@@ -1,0 +1,11 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@clk1@@INPUT@@0@@0@@-@@over_top@@No
+VALUE@@clk2@@INPUT@@0@@0@@-@@over_top@@No
+VALUE@@rst1@@INPUT@@0@@0@@-@@over_top@@No
+VALUE@@rst2@@INPUT@@0@@0@@-@@over_top@@No
+VALUE@@w_en@@INPUT@@0@@0@@-@@over_top@@No
+VALUE@@r_en@@INPUT@@0@@0@@-@@over_top@@No
+VALUE@@d1@@INPUT@@4@@0@@-@@over_top@@No
+VALUE@@d2@@OUTPUT@@4@@0@@-@@over_top@@No
+VALUE@@full@@OUTPUT@@0@@0@@-@@over_top@@No
+VALUE@@empty@@OUTPUT@@0@@0@@-@@over_top@@No

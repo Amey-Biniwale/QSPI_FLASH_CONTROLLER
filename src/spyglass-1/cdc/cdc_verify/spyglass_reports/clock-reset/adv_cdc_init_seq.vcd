@@ -1,0 +1,47 @@
+$date
+	Fri Sep 11 23:02:03 2026
+
+$end
+$version
+	BMC-0.1
+$end
+$timescale
+	1ps
+$end
+
+$var integer 16 verification_cycle verification_cycle $end
+$scope module QSPI_top $end
+
+$var wire 1 & PCLK $end
+$var wire 1 ' PWRITE $end
+$var wire 1 ( PENABLE $end
+$var wire 1 ) PSEL $end
+$var wire 4 * PSTRB [3:0] $end
+$var wire 32 . PADDR [31:0] $end
+$var wire 32 N PWDATA [31:0] $end
+$var wire 1 n HCLK $end
+$var wire 1 o HSEL $end
+$var wire 32 p HADDR [31:0] $end
+$var wire 1 7& HWRITE $end
+$var wire 2 8& HTRANS [1:0] $end
+$var wire 1 :& SCLK $end
+$var wire 1 ;& FLASH_WIP $end
+$var wire 1 <& io0_i $end
+$var wire 1 =& io1_i $end
+$var wire 1 >& io2_i $end
+$var wire 1 ?& io3_i $end
+$var wire 1 @& SRESETn $end
+$var wire 1 A& HRESETn $end
+$var wire 1 B& PRESETn $end
+$upscope $end
+
+$enddefinitions $end
+
+#10000
+b0000000000000000 verification_cycle
+
+0@&
+0A&
+0B&
+
+#20000

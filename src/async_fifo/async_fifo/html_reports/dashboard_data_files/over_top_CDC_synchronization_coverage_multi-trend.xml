@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+			<lines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   			xsi:noNamespaceSchemaLocation="file:///Dashboard/DobjTrendgraph.xsd">
+<!-- This file schema is internal to SpyGlass DashBoard and subject to change in future without notice --> 
+  <target_line goal="cdc/cdc_verify" color="0x008800" line_type="solid"> 
+		<data_point date_time="07/28/2026 (22:49)" value="100%" />
+		<data_point date_time="07/28/2026 (22:56)" value="100%" />
+		<data_point date_time="07/28/2026 (23:27)" value="100%" />
+		<data_point date_time="07/28/2026 (23:43)" value="100%" />
+		<data_point date_time="08/04/2026 (22:53)" value="100%" />
+		<data_point date_time="08/04/2026 (23:01)" value="100%" />
+  </target_line>
+  <actual_line goal="cdc/cdc_verify" color="0x3366FF" line_type="solid"> 
+		<data_point date_time="07/28/2026 (22:49)" value="100" />
+		<data_point date_time="07/28/2026 (22:56)" value="100" />
+		<data_point date_time="07/28/2026 (23:27)" value="100" />
+		<data_point date_time="07/28/2026 (23:43)" value="100" />
+		<data_point date_time="08/04/2026 (22:53)" value="100" />
+		<data_point date_time="08/04/2026 (23:01)" value="100" />
+  </actual_line>
+	<title>over_top:       Synchronization coverage </title>
+	<xaxis_label>Date</xaxis_label>
+	<yaxis_label>Synchronization coverage</yaxis_label>
+	</lines>

@@ -1,0 +1,6 @@
+waive -rule {  {Ac_datahold01a}  }  -comment {Created by ameybiniwale on 11-Sep-2026 22:57:45} 
+waive -rule {  {Ac_conv01}  }  -comment {Created by ameybiniwale on 11-Sep-2026 22:57:56} 
+waive -rule {  {Ac_cdc01a}  }  -comment {Created by ameybiniwale on 11-Sep-2026 22:58:58} 
+waive -rule {  {Ac_glitch03}  }  -comment {Created by ameybiniwale on 11-Sep-2026 22:59:33} 
+waive -rule {  {Ac_coherency06}  }  -comment {Created by ameybiniwale on 11-Sep-2026 23:00:18} 
+waive -rule {  {Ac_unsync01}  }  -comment {Created by ameybiniwale on 11-Sep-2026 23:00:58} 

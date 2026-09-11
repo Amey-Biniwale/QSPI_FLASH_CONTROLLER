@@ -1,0 +1,87 @@
+3 "W415a" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["6@@220","6@@224"]
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:arb@QSPI_ARBITER"
+4 "W415a" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["9@@210","9@@212"]
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+5 "W415a" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["9@@223","9@@225"]
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+6 "W415a" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["9@@236","9@@238"]
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+7 "W415a" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["9@@243","9@@245"]
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+8 "W415a" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["9@@256","9@@258"]
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+9 "W415a" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["9@@269","9@@271"]
+"SPG_MSGTAG_HIERARCHY"
+":QSPI_top:u_qspi_core@QSPI_Core:phy@QSPI_PHY"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "RegInputOutput-ML" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[63]
+"RULEGROUP"
+["morelint"]
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[42]
+"RULEGROUP"
+["morelint"]
+-1 "STARC05-2.5.1.2" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[84]
+"RULEGROUP"
+["starc2005/s05_Construct/s05_Construct1","starc2005/RTL_Description_Technique_05"]
+-1 "W415a" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[91]
+"RULEGROUP"
+["lint/MultipleDriver"]

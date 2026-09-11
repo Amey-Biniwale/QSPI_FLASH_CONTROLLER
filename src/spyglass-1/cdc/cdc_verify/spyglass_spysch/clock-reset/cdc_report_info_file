@@ -1,0 +1,7 @@
+
+clock@@name@@QSPI_top.PCLK@@domain@@d1@@period@@10@@tag@@CLOCK_DOMAIN_1@@
+clock@@name@@QSPI_top.HCLK@@domain@@d2@@period@@10@@tag@@CLOCK_DOMAIN_2@@
+clock@@name@@QSPI_top.SCLK@@domain@@d3@@period@@20@@tag@@CLOCK_DOMAIN_3@@
+reset@@name@@PRESETn@@value@@0@@async@@
+reset@@name@@HRESETn@@value@@0@@async@@
+reset@@name@@SRESETn@@value@@0@@async@@

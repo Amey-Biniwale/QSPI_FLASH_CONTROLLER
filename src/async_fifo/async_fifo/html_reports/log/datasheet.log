@@ -1,0 +1,46 @@
+SpyGlass Predictive Analyzer(R) - SpyGlass_vS-2021.09-SP1
+All Rights Reserved. Use, disclosure or duplication 
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com 
+
+Creating 'datasheet' reports using config file '/tmp/config_102695'
+##cwd         : /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo
+##system      : Linux feserver.mirafra.com 3.10.0-1160.114.2.el7.x86_64 #1 SMP Wed Mar 20 15:54:52 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+##Date & Time : Tue Aug  4 23:01:41 2026
+Checkout 'datasheet' license at Tue Aug  4 23:01:40 2026 
+Checkout 'datasheet' license completed at Tue Aug  4 23:01:40 2026 
+Starting Generating DataSheet report at Tue Aug  4 23:01:40 2026 
+Checking project file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo.prj at Tue Aug  4 23:01:40 2026 
+Processing Project File:/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo.prj 
+     Work Directory:/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo 
+     Top Name:  
+     Group Mode: 0 
+     Methodology:/fetools/synopsys/installed_tools/spyglass/S-2021.09-SP1/SPYGLASS_HOME/GuideWare/2021.09/block/rtl_handoff 
+    Goals executed: lint/lint_rtl::,lint/lint_rtl_enhanced::,cdc/cdc_setup_check::,cdc/cdc_verify:: 
+        Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl/spyglass_spysch/morelint/PragmaComments 
+ Data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl/spyglass_spysch/morelint/PragmaComments seems to be empty 
+        Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl/spyglass_spysch/morelint/RegInputOutput 
+        Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl/spyglass_spysch/morelint/ReportPorts 
+        Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl_enhanced/spyglass_spysch/morelint/PragmaComments 
+ Data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl_enhanced/spyglass_spysch/morelint/PragmaComments seems to be empty 
+        Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl_enhanced/spyglass_spysch/morelint/ReportPorts 
+           Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_setup_check/spyglass_spysch/clock-reset/datasheet_clocks 
+           Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_setup_check/spyglass_spysch/clock-reset/datasheet_resets 
+           Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_setup_check/spyglass_spysch/clock-reset/datasheet_ports 
+           Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_spysch/clock-reset/datasheet_clocks 
+           Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_spysch/clock-reset/datasheet_resets 
+           Found data file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_spysch/clock-reset/datasheet_ports 
+Taking file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl_enhanced/spyglass_spysch/morelint/ReportPorts for ReportPorts data 
+Taking file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/lint/lint_rtl/spyglass_spysch/morelint/RegInputOutput for RegInputOutput data 
+Taking file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_spysch/clock-reset/datasheet_ports for clock_ports data 
+Taking file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_spysch/clock-reset/datasheet_clocks for clock tree data 
+Taking file /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_spysch/clock-reset/datasheet_resets for reset tree data 
+DataSheet report processing completed at Tue Aug  4 23:01:40 2026 
+Checking in 'datasheet' license at Tue Aug  4 23:01:40 2026 
+Checking in 'datasheet' license completed at Tue Aug  4 23:01:41 2026 
+----------------------------------------------------------------
+Report 'datasheet' created.
+  File: /fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/html_reports/datasheet.html 
+----------------------------------------------------------------
+
+SpyGlass Exit Code 0

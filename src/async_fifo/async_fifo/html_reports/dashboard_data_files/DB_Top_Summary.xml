@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="file://Dashboard/DB_Top_Summary.xsd">
+<!-- This file schema is internal to SpyGlass DashBoard and subject to change in future without notice --> 
+	<category name="Quality" fail="25" in-process="0" pass="75">
+
+		 <item name="lint/lint_rtl" fail="0" in-process="0" pass="100" link="dashboard_data_files/lint-lint_rtl.xml"/>
+		 <item name="lint/lint_rtl_enhanced" fail="0" in-process="0" pass="100" link="dashboard_data_files/lint-lint_rtl_enhanced.xml"/>
+		 <item name="cdc/cdc_setup_check" fail="0" in-process="0" pass="100" link="dashboard_data_files/cdc-cdc_setup_check.xml"/>
+		 <item name="cdc/cdc_verify" fail="100" in-process="0" pass="0" link="dashboard_data_files/cdc-cdc_verify.xml"/>
+	</category>
+	<category name="CDC" fail="50" in-process="0" pass="50">
+
+		 <item name="Synchronization coverage" fail="0" in-process="0" pass="100" link="dashboard_data_files/CDC_synchronization_coverage.xml"/>
+
+		 <item name="Failed properties" fail="100" in-process="0" pass="0" link="dashboard_data_files/CDC_cdc_failed_properties.xml"/>
+
+	</category>
+
+<collapse_all>false </collapse_all>
+<title><![CDATA[]]></title>
+<label><![CDATA[]]></label>
+</items>

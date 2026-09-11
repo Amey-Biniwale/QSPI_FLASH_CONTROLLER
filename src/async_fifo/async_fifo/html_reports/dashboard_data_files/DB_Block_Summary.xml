@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<modules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  	 xsi:noNamespaceSchemaLocation="file://Dashboard/DB_Block_Summary.xsd">
+<!-- This file schema is internal to SpyGlass DashBoard and subject to change in future without notice --> 
+<module name="over_top" header_link="dashboard_data_files/DashBoard_Main.xml#over_top"> 
+			  <design_objectives> 
+<category name="CDC">
+ <item name="Synchronization coverage" header_link="dashboard_data_files/CDC_synchronization_coverage.xml" pass_status="Pass" cell_link="dashboard_data_files/over_top_CDC_synchronization_coverage_cdc-cdc_verify-trend.xml" date_time="08/04/2026 (23:01)"/> 
+ <item name="Failed properties" header_link="dashboard_data_files/CDC_cdc_failed_properties.xml" pass_status="Fail" cell_link="dashboard_data_files/over_top_CDC_cdc_failed_properties_cdc-cdc_verify-trend.xml" date_time="08/04/2026 (23:01)"/> 
+</category> 
+</design_objectives> 
+<quality_goals>
+<goal name="lint/lint_rtl" header_link="dashboard_data_files/lint-lint_rtl.xml" pass_status="Pass" cell_link="dashboard_data_files/over_top_lint-lint_rtl-trend.xml" date_time="08/04/2026 (23:00)"/>
+<goal name="lint/lint_rtl_enhanced" header_link="dashboard_data_files/lint-lint_rtl_enhanced.xml" pass_status="Pass" cell_link="dashboard_data_files/over_top_lint-lint_rtl_enhanced-trend.xml" date_time="08/04/2026 (23:01)"/>
+<goal name="cdc/cdc_setup_check" header_link="dashboard_data_files/cdc-cdc_setup_check.xml" pass_status="Pass" cell_link="dashboard_data_files/over_top_cdc-cdc_setup_check-trend.xml" date_time="08/04/2026 (23:01)"/>
+<goal name="cdc/cdc_verify" header_link="dashboard_data_files/cdc-cdc_verify.xml" pass_status="Fail" cell_link="dashboard_data_files/over_top_cdc-cdc_verify-trend.xml" date_time="08/04/2026 (23:01)"/>
+ </quality_goals>
+<oldest_update>08/04/2026 (23:00) </oldest_update>
+  		</module> 
+</modules>

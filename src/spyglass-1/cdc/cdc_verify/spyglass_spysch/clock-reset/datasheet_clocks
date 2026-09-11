@@ -1,0 +1,4 @@
+SCHEMA@@CName@@CTag@@CMode@@CFrequency@@CDomain@@DCrossings@@RegPEdge@@LatchPEdge@@LibCellPEdge@@BBPEdge@@RegNEdge@@LatchNEdge@@LibCellNEdge@@BBNEdge@@CSource
+VALUE@@QSPI_top.PCLK@@CLOCK_DOMAIN_1@@sys-clock@@100@@d1@@0@@594@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC
+VALUE@@QSPI_top.HCLK@@CLOCK_DOMAIN_2@@sys-clock@@100@@d2@@0@@679@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC
+VALUE@@QSPI_top.SCLK@@CLOCK_DOMAIN_3@@sys-clock@@50@@d3@@0@@800@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC

@@ -1,0 +1,10 @@
+current_mode@@@@0@@@@
+sgdc@@clock@@clock-namePCLK-tagCLOCK_DOMAIN_1-domaind1-period10-edge05@@clock -name PCLK -domain d1 -period 10 -tag CLOCK_DOMAIN_1 -edge {0 5}@@@lab_qspi.sgdc:4
+sgdc@@clock@@clock-nameHCLK-tagCLOCK_DOMAIN_2-domaind2-period10-edge05@@clock -name HCLK -domain d2 -period 10 -tag CLOCK_DOMAIN_2 -edge {0 5}@@@lab_qspi.sgdc:5
+sgdc@@clock@@clock-nameSCLK-tagCLOCK_DOMAIN_3-domaind3-period20-edge010@@clock -name SCLK -domain d3 -period 20 -tag CLOCK_DOMAIN_3 -edge {0 10}@@@lab_qspi.sgdc:6
+sgdc@@reset@@reset-namePRESETn-value0-async@@reset -name PRESETn -value 0@@@lab_qspi.sgdc:8
+sgdc@@reset@@reset-nameHRESETn-value0-async@@reset -name HRESETn -value 0@@@lab_qspi.sgdc:9
+sgdc@@reset@@reset-nameSRESETn-value0-async@@reset -name SRESETn -value 0@@@lab_qspi.sgdc:10
+sgdc@@num_flops@@num_flops-to_domaind3-value4-reset@@num_flops -reset -to_domain d3 -value 4@@@lab_qspi.sgdc:49
+sgdc@@num_flops@@num_flops-to_domaind2-value4-reset@@num_flops -reset -to_domain d2 -value 4@@@lab_qspi.sgdc:50
+sgdc@@num_flops@@num_flops-to_domaind1-value4-reset@@num_flops -reset -to_domain d1 -value 4@@@lab_qspi.sgdc:51
