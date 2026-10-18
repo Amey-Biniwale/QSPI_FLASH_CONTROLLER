@@ -1,8 +1,0 @@
-7
-75 /fetools/work_area/frontend/b11_rtl/amey/QSPI_Project/async_fifo/bi_to_gr.v 1 66044cc971ebb5735eff09aeac77da74
-75 /fetools/work_area/frontend/b11_rtl/amey/QSPI_Project/async_fifo/ff2_sync.v 1 7821a1876f294418d926a377da828439
-71 /fetools/work_area/frontend/b11_rtl/amey/QSPI_Project/async_fifo/fifo.v 1 b1298109dd27ae1adb124ebb8c9e7739
-75 /fetools/work_area/frontend/b11_rtl/amey/QSPI_Project/async_fifo/fifo_top.v 1 2d932c214e55db1aa556565890459e87
-75 /fetools/work_area/frontend/b11_rtl/amey/QSPI_Project/async_fifo/over_top.v 1 65821fea531ec7b9ba21dd44d6d96502
-79 /fetools/work_area/frontend/b11_rtl/amey/QSPI_Project/async_fifo/read_handler.v 1 c1651d094d5216b7b2fc566a21e5fc98
-80 /fetools/work_area/frontend/b11_rtl/amey/QSPI_Project/async_fifo/write_handler.v 1 ad7b508bf7c67026f30348018fd218f9

@@ -1,3 +1,0 @@
-SCHEMA@@CName@@CTag@@CMode@@CFrequency@@CDomain@@DCrossings@@RegPEdge@@LatchPEdge@@LibCellPEdge@@BBPEdge@@RegNEdge@@LatchNEdge@@LibCellNEdge@@BBNEdge@@CSource
-VALUE@@over_top.clk1@@CLOCK_DOMAIN_1@@sys-clock@@100@@d1@@0@@161@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC
-VALUE@@over_top.clk2@@CLOCK_DOMAIN_2@@sys-clock@@66.6667@@d2@@0@@41@@0@@0@@0@@0@@0@@0@@0@@SDC/SGDC

@@ -1,6 +1,0 @@
-
-QSPI_top.u_qspi_core.arb.PS[0]@@@@QSPI_top.ff5.syncro1,QSPI_top.ff2.syncro1,...@@@@1@@@@"CLOCK_DOMAIN_2"@@@@
-QSPI_top.u_qspi_core.arb.PS[1]@@@@QSPI_top.ff5.syncro1,QSPI_top.ff2.syncro1,...@@@@1@@@@"CLOCK_DOMAIN_2"@@@@
-QSPI_top.u_qspi_core.arb.PS[2]@@@@QSPI_top.ff5.syncro1,QSPI_top.ff2.syncro1,...@@@@1@@@@"CLOCK_DOMAIN_2"@@@@
-QSPI_top.u_qspi_core.cont.DONE@@@@QSPI_top.ff5.syncro1,QSPI_top.ff3.syncro1@@@@1@@@@"CLOCK_DOMAIN_2"@@@@
-QSPI_top.u_qspi_core.cont.BUSY@@@@QSPI_top.ff2.syncro1,QSPI_top.ff4.syncro1@@@@1@@@@"CLOCK_DOMAIN_2"@@@@

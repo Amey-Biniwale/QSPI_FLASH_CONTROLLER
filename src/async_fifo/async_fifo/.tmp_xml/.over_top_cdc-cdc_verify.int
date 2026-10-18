@@ -1,7 +1,0 @@
-INPUT@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_reports@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/html_reports/data_files/@@over_top@@cdc-cdc_verify@@
-COPY@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_reports/moresimple.rpt@@data_files/over_top_cdc-cdc_verify_moresimple.rpt@@
-COPY@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/over_top_cdc-cdc_verify_no_msg_reporting_rules.rpt@@
-REGEN@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_reports/CDC-report.rpt@@data_files/over_top_cdc-cdc_verify_CDC-report.rpt.html@@
-REGEN@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass_reports/clock-reset/adv_cdc.rpt@@data_files/over_top_cdc-cdc_verify_adv_cdc.rpt.html@@
-PROCESS@@clock-reset@@SpyGlass
-COPY@@/fetools/work_area/frontend/b11_rtl/amey/rtl_cdc/async_fifo/async_fifo/cdc/cdc_verify/spyglass.log@@data_files/over_top_cdc-cdc_verify_spyglass.log@@

@@ -1,5 +1,0 @@
-
-clock@@name@@over_top.clk1@@domain@@d1@@period@@10@@tag@@CLOCK_DOMAIN_1@@
-clock@@name@@over_top.clk2@@domain@@d2@@period@@15@@tag@@CLOCK_DOMAIN_2@@
-reset@@name@@rst1@@value@@1@@async@@
-reset@@name@@rst2@@value@@1@@async@@

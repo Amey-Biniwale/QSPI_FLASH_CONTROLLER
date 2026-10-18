@@ -1,3 +1,0 @@
-##MESSAGESORT -rule Ac_abstract_validation01 -language Verilog+VHDL -arg1 STRING:ASCENDING -message 
-##MESSAGESORT -rule Reset_info01 -language Verilog+VHDL -arg2 STRING:ASCENDING -message Candidate %3: %1 of type %2 %3
-##MESSAGESORT -rule Clock_info01 -language Verilog+VHDL -arg2 STRING:ASCENDING -message Candidate clock: %1 of type: %2 Clock

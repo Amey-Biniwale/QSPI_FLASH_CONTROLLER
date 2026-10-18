@@ -1,4 +1,0 @@
-SCHEMA@@RName@@RType@@SyncAH@@SyncAL@@ASyncAH@@ASyncAL
-VALUE@@QSPI_top.PRESETn@@Clear@@0@@0@@0@@594
-VALUE@@QSPI_top.HRESETn@@Clear@@0@@0@@0@@774
-VALUE@@QSPI_top.SRESETn@@Preset,Clear@@0@@0@@0@@835
